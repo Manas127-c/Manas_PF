@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url(Pacifico-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    position: relative;
+}
+
+#loader {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#loader h1 {
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loader h2 {
+    color: white;
+    font-size: 5vw;
+    font-family: pacifico;
+}
+
+#cursor {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 99;
+    position: fixed;
+    pointer-events: none;
+}
+
+header {
+    width: 100vw;
+    height: 70px;
+    background: white;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    z-index: 16;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20vw;
+}
+
+#logo h1 {
+    font-size: 1.5vw;
+    font-weight: 900;
+    font-family: pacifico;
+    z-index: 20;
+}
+
+#anchor {
+    display: flex;
+    gap: 30px;
+}
+
+#anchor a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.461);
+    font-weight: 500;
+}
+
+#anchor a:nth-child(1) {
+    color: black
+}
+
+#anchor a:hover {
+    color: black;
+}
+
+#links {
+    display: flex;
+    gap: 10px;
+}
+
+#links a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
+
+#page1 {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: 70px; */
+}
+
+#leftp1 {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25%;
+}
+
+#leftp1 h5 {
+    color: rgba(0, 0, 0, 0.707)
+}
+
+#leftp1 h1 {
+    font-size: 2vw;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#frame {
+    height: 3vw;
+    /* background-color: red; */
+}
+
+#leftp1 span {
+    height: 3vw;
+    /* background-color: aquamarine; */
+    font-size: 2vw;
+    color: rgba(0, 0, 0, 0.707)
+}
+
+#btn {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1 {
+    background-color: white;
+}
+
+.b1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.b1:hover {
+    background-color: #343335;
+}
+
+.b1:hover a {
+    color: white;
+}
+
+.b2 {
+    background-color: #343335;
+}
+
+.b2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.b2:hover {
+    background-color: black;
+}
+
+button a {
+    font-size: 1vw;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* #343335 */
+
+#leftp1 button {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 7vw;
+    height: 3vw;
+    border-radius: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#rightp1 {
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25%;
+}
+
+#img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    /* background-color: black; */
+    overflow: hidden;
+}
+
+#img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
