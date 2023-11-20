@@ -58,32 +58,32 @@ function cursor() {
 }
 cursor();
 
-function loader() {
-    var tl = gsap.timeline()
+// function loader() {
+//     var tl = gsap.timeline()
 
-    function time() {
-        var a = 0
-        setInterval(function() {
-            a = a + Math.floor(Math.random() * 15)
-            if (a < 100) {
-                document.querySelector("#loader h1").innerHTML = a + "%"
-            } else {
-                a = 100
-                document.querySelector("#loader h1").innerHTML = a + "%"
-            }
-        }, 150)
-    }
-    tl.to("#loader h1", {
-        delay: 1,
-        onStart: time()
-    })
-    tl.to("#loader", {
-        top: "-100vh",
-        delay: 1.5,
-        duration: 2
-    })
-}
-loader();
+//     function time() {
+//         var a = 0
+//         setInterval(function() {
+//             a = a + Math.floor(Math.random() * 15)
+//             if (a < 100) {
+//                 document.querySelector("#loader h1").innerHTML = a + "%"
+//             } else {
+//                 a = 100
+//                 document.querySelector("#loader h1").innerHTML = a + "%"
+//             }
+//         }, 150)
+//     }
+//     tl.to("#loader h1", {
+//         delay: 1,
+//         onStart: time()
+//     })
+//     tl.to("#loader", {
+//         top: "-100vh",
+//         delay: 1.5,
+//         duration: 2
+//     })
+// }
+// loader();
 
 function textanimation() {
     var typed = new Typed("#auto", {
