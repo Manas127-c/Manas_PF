@@ -1,3 +1,5 @@
+/*FONT FAMILY ADDITIOON*/
+
 @font-face {
     font-family: Gilroy;
     src: url(Gilroy-Medium.ttf);
@@ -7,6 +9,12 @@
     font-family: pacifico;
     src: url(Pacifico-Regular.ttf);
 }
+
+
+/* =========================== */
+
+
+/* START CSS STYLING */
 
 * {
     padding: 0;
@@ -24,6 +32,9 @@ body {
 #main {
     position: relative;
 }
+
+
+/* LOADER STYLE */
 
 
 /* #loader {
@@ -50,6 +61,12 @@ body {
     font-family: pacifico;
 } */
 
+
+/* =================================== */
+
+
+/* CURSOR STYLE */
+
 #cursor {
     width: 1vw;
     height: 1vw;
@@ -59,6 +76,12 @@ body {
     position: fixed;
     pointer-events: none;
 }
+
+
+/* ================== */
+
+
+/* HEADER STYLE */
 
 header {
     width: 100vw;
@@ -110,21 +133,24 @@ header {
     font-size: 2vw;
 }
 
+
+/* ========================= */
+
+
+/* PAGE1 STYLE */
+
 #page1 {
     width: 100vw;
     height: 100vh;
-    /* background-color: aqua; */
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* top: 70px; */
 }
 
 #leftp1 {
     width: 50%;
     height: 100%;
-    /* background-color: red; */
     position: relative;
     display: flex;
     align-items: center;
@@ -145,12 +171,10 @@ header {
 
 #frame {
     height: 3vw;
-    /* background-color: red; */
 }
 
 #leftp1 span {
     height: 3vw;
-    /* background-color: aquamarine; */
     font-size: 2vw;
     color: rgba(0, 0, 0, 0.707)
 }
@@ -220,7 +244,6 @@ button {
 #rightp1 {
     width: 50%;
     height: 100%;
-    /* background-color: blue; */
     position: relative;
     display: flex;
     align-items: center;
@@ -232,7 +255,6 @@ button {
     width: 20vw;
     height: 20vw;
     border-radius: 50%;
-    /* background-color: black; */
     overflow: hidden;
 }
 
@@ -242,10 +264,15 @@ button {
     object-fit: cover;
 }
 
+
+/* ================================ */
+
+
+/* PAGE2 STYLE */
+
 #page2 {
     width: 100vw;
     height: 100vh;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,19 +301,6 @@ button {
     top: 16%;
     box-shadow: 10px 10px 20px black;
 }
-
-
-/* 
-#imgp2::before {
-    content: "";
-    position: absolute;
-    width: 26vw;
-    height: 70vh;
-    top: 17%;
-    left: 10%;
-    z-index: -1;
-    border: 2px solid black;
-} */
 
 #rightp2 {
     width: 30%;
@@ -317,7 +331,8 @@ button {
 }
 
 .span1st {
-    color: red;
+    color: white;
+    background: #343335;
     text-transform: uppercase;
 }
 
@@ -336,3 +351,6 @@ button {
 #icon3 {
     color: blue;
 }
+
+
+/* ================================ */
