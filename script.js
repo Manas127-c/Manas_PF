@@ -40,6 +40,7 @@ function cursor() {
     })
     let te = document.querySelectorAll("button")
     let img = document.querySelector("#img")
+    let btn = document.querySelector("#rightp3 form #btn")
     te.forEach(v => {
 
         v.addEventListener("mouseleave", () => {
@@ -53,6 +54,13 @@ function cursor() {
         cursor.style.display = "block"
     });
     img.addEventListener("mousemove", () => {
+        cursor.style.display = "none"
+    });
+    btn.addEventListener("mouseleave", () => {
+        cursor.style.display = "block"
+        console.log("hi")
+    });
+    btn.addEventListener("mousemove", () => {
         cursor.style.display = "none"
     });
 }
