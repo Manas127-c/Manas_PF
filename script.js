@@ -38,7 +38,7 @@ function cursor() {
         cursor.style.scale = 0;
         cursor.style.opacity = 0;
     })
-    let te = document.querySelectorAll("button")
+    let te = document.querySelectorAll("#btnp1 button")
     let img = document.querySelector("#img")
     let btn = document.querySelector("#rightp3 form #btn")
     te.forEach(v => {
