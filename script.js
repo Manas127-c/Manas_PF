@@ -213,3 +213,153 @@ function scrollonp4() {
     })
 }
 scrollonp4();
+
+function animationp1() {
+
+    let tl = gsap.timeline();
+    tl.to("#progress1", {
+        width: "80%",
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 80%",
+            end: "top 50%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+    tl.to("#box1p5 h2", {
+        opacity: 1,
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 30%",
+            end: "top 10%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+}
+animationp1()
+
+function animationp2() {
+
+    let tl = gsap.timeline();
+    tl.to("#progress2", {
+        width: "50%",
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 80%",
+            end: "top 50%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+    tl.to("#box2p5 h2", {
+        opacity: 1,
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 30%",
+            end: "top 10%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+}
+animationp2()
+
+function animationp3() {
+
+    let tl = gsap.timeline();
+    tl.to("#progress3", {
+        width: "60%",
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 80%",
+            end: "top 50%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+    tl.to("#box3p5 h2", {
+        opacity: 1,
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 30%",
+            end: "top 10%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+}
+animationp3()
+
+function animationp4() {
+
+    let tl = gsap.timeline();
+    tl.to("#progress4", {
+        width: "90%",
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 80%",
+            end: "top 50%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+    tl.to("#box4p5 h2", {
+        opacity: 1,
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 30%",
+            end: "top 10%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+}
+animationp4()
+
+function animationp5() {
+
+    let tl = gsap.timeline();
+    tl.to("#progress5", {
+        width: "80%",
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 80%",
+            end: "top 50%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+    tl.to("#box5p5 h2", {
+        opacity: 1,
+        scrollTrigger: {
+            trigger: "#box1p5",
+            scroller: "body",
+            // markers: true,
+            start: "top 30%",
+            end: "top 10%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+}
+animationp5()
