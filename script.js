@@ -20,7 +20,7 @@
 
 // locomotivejs();
 
-function cursor() {
+function cursorr() {
     let cursor = document.querySelector("#cursor")
     let main = document.querySelector("body")
     main.addEventListener("mousemove", function(dets) {
@@ -64,7 +64,7 @@ function cursor() {
         cursor.style.display = "none"
     });
 }
-cursor();
+cursorr();
 
 // function loader() {
 //     var tl = gsap.timeline()
@@ -164,3 +164,52 @@ function navigation() {
     }
 }
 navigation();
+
+function scrollonp4() {
+    let img = document.querySelector("#box4p4 .leftp4 img")
+    console.log(img)
+    let tl = gsap.timeline();
+    tl.to("#box2p4 .leftp4 img", {
+        left: "5%",
+        delay: 1,
+        duration: 1,
+        scrollTrigger: {
+            trigger: "#box2p4",
+            scroller: "body",
+            // markers: true,
+            start: "top 90%",
+            end: "top 80%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+    tl.to("#box3p4 .rightp4 img", {
+        right: "5%",
+        delay: 1,
+        duration: 1,
+        scrollTrigger: {
+            trigger: "#box3p4",
+            scroller: "body",
+            // markers: true,
+            start: "top 90%",
+            end: "top 80%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+    tl.to("#box4p4 .leftp4 img", {
+        left: "5%",
+        delay: 1,
+        duration: 1,
+        scrollTrigger: {
+            trigger: "#box4p4",
+            scroller: "body",
+            // markers: true,
+            start: "top 90%",
+            end: "top 80%",
+            scrub: 3,
+            // pin: true,
+        }
+    })
+}
+scrollonp4();

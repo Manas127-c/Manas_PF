@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
@@ -25,13 +26,13 @@
         </div>
         <div id="anchor">
             <a href="#page1" class="active">Home</a>
-            <a href="#page2">about</a>
-            <a href="#page3">project</a>
-            <a href="">contact</a>
+            <a href="#page2">About</a>
+            <a href="#page4">Project</a>
+            <a href="#page3">Contact</a>
         </div>
-        <div id="links"><a href="https://github.com/Manas127-c"><i class="ri-github-fill"></i></a>
-            <a href="https://www.linkedin.com/in/manas-22a865196/"><i class="ri-linkedin-box-fill"></i></a>
-            <a href=""><i class="ri-facebook-circle-fill"></i></a><a href="https://www.instagram.com/manas_ur_man/"><i class="ri-instagram-fill"></i></a></div>
+        <div id="links"><a href="https://github.com/Manas127-c" title="github"><i class="ri-github-fill"></i></a>
+            <a href="https://www.linkedin.com/in/manas-22a865196/" title="linkedin"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="" title="facebok"><i class="ri-facebook-circle-fill"></i></a><a href="https://www.instagram.com/manas_ur_man/" title="instagarm"><i class="ri-instagram-fill"></i></a></div>
     </header>
     <div id="main">
         <div id="page1" class="page">
@@ -68,6 +69,7 @@
                 <div class="contentr2">
                     <h1>AboutMe...</h1>
                     <h2>Frontend Devloper</h2>
+
                     <p>As a passionate and diligent <span class="span1st">Frontend developer</span>, I bring fresh energy and expertise in
                         <span class="icon" id="icon1" title="javascript">
                         <i class="ri-javascript-fill"></i></span>,
@@ -81,6 +83,34 @@
                 </div>
             </div>
         </div>
+        <div id="page4" class="page">
+            <div id="box1p4" class="boxp4">
+                <h1>Projects</h1>
+            </div>
+            <div id="box2p4" class="boxp4">
+                <div class="leftp4">
+                    <img src="https://www.webdesignerdepot.com/cdn-origin/uploads/2020/01/Netflix-Homepage.png" alt="">
+                </div>
+                <div class="centerp4">
+                    <h1>Netflix Clone Project</h1>
+                </div>
+                <div class="rightp4"><a href="#"><i class="ri-arrow-right-up-line"></i></a></div>
+            </div>
+            <div id="box3p4" class="boxp4">
+                <div class="leftp4"><a href="#"><i class="ri-arrow-right-up-line"></i></a></div>
+                <div class="centerp4">
+                    <h1>Flipcart Clone Project</h1>
+                </div>
+                <div class="rightp4"><img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/07/flipkart-website-1595935120.jpg" alt=""></div>
+            </div>
+            <div id="box4p4" class="boxp4">
+                <div class="leftp4"><img src="https://www.heritagechristiancollege.com/wp-content/uploads/2019/04/free-weather-website-templates-of-sunlight-weather-responsive-wid-template-by-w3layouts-of-free-weather-website-templates.gif" alt=""></div>
+                <div class="centerp4">
+                    <h1>Weather App project</h1>
+                </div>
+                <div class="rightp4"><a href="#"><i class="ri-arrow-right-up-line"></i></a></div>
+            </div>
+        </div>
         <div id="page3" class="page">
             <div id="topp3">
                 <h1>Contact Me</h1>
@@ -90,8 +120,8 @@
                     <h1>Let's work together</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dignissimos animi a. Eum quod provident id optio illo, excepturi ullam maxime saepe cupiditate iure enim minima, quae pariatur fugiat praesentium numquam sequi molestiae
                         accusantium sit nihil magnam? Ut excepturi ratione corporis, distinctio animi iusto maiores similique, necessitatibus cumque, sed ipsum!</p>
-                    <h2><i class="ri-mail-send-fill"></i>manastripathy127@gmail.com</h2>
-                    <h2><i class="ri-phone-fill"></i>91-9078190765</h2>
+                    <h2 title="email"><i class="ri-mail-send-fill"></i>manastripathy127@gmail.com</h2>
+                    <h2 title="Phoneno."><i class="ri-phone-fill"></i>91-9078190765</h2>
                 </div>
                 <div id="rightp3">
                     <form action="https://formspree.io/f/xbjvvjnz" method="POST">
@@ -105,6 +135,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
