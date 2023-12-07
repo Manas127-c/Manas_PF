@@ -31,7 +31,8 @@ body {
     /* overflow-x: hidden; */
 }
 
-::-webkit-scrollbar {
+
+/* ::-webkit-scrollbar {
     width: 10px;
     background-color: white;
 }
@@ -44,10 +45,11 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0, 0.707);
     transition: 0.3s;
-}
+} */
 
 #main {
     position: relative;
+    overflow-x: hidden;
 }
 
 
