@@ -363,3 +363,19 @@ function animationp5() {
     })
 }
 animationp5()
+
+function menubar() {
+    let menu = document.querySelector("#menu");
+    let bar = document.querySelector("#menubar")
+    var f = 0;
+    menu.addEventListener("click", function() {
+        if (f == 0) {
+            bar.style.height = "100vh";
+            f = 1;
+        } else {
+            bar.style.height = 0;
+            f = 0;
+        }
+    })
+}
+menubar();

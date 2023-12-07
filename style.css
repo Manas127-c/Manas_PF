@@ -106,6 +106,7 @@ header {
     background: white;
     border-bottom: 1px solid grey;
     position: fixed;
+    top: 0%;
     z-index: 16;
     display: flex;
     align-items: center;
@@ -152,6 +153,12 @@ header {
     text-decoration: none;
     color: black;
     font-size: 2vw;
+}
+
+#menu {
+    color: black;
+    font-size: 2vw;
+    display: none;
 }
 
 
@@ -378,6 +385,16 @@ button {
 
 
 /*============================================*/
+
+#menubar {
+    width: 100vw;
+    height: 0;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    transition: 0.4s linear;
+}
 
 
 /*PAGE3 STYLE*/
@@ -710,4 +727,138 @@ form textarea {
     height: 5%;
     background-color: rgba(0, 0, 0, 0.531);
     border-radius: 10px;
+}
+
+
+/* ================================================================================================= */
+
+
+/* =======================Responsive design style sheet for mobile device======================= */
+
+@media (max-width:600px) {
+    /* responsive header */
+    header {
+        height: 50px;
+        flex-direction: row-reverse;
+        padding: 0px 5vw;
+        top: 0;
+    }
+    #logo h1 {
+        font-size: 3.5vw;
+        font-weight: 900;
+        font-family: pacifico;
+        z-index: 20;
+    }
+    #logo a {
+        text-decoration: none;
+        color: black;
+    }
+    #anchor a {
+        display: none;
+    }
+    #links a {
+        display: none;
+    }
+    #menu {
+        font-size: 6vw;
+        color: black;
+        display: block;
+        cursor: pointer;
+    }
+    /* ========================= */
+    /* responsive page1 */
+    #page1 {
+        width: 100vw;
+        height: 100vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #leftp1 {
+        width: 50%;
+        height: 100%;
+        /* background-color: green; */
+        padding: 0px 0px;
+    }
+    #leftp1 h5 {
+        font-size: 3vw;
+        color: rgba(0, 0, 0, 0.707)
+    }
+    #leftp1 h1 {
+        font-size: 5vw;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    #frame {
+        height: 5vw;
+    }
+    #leftp1 span {
+        height: 5vw;
+        font-size: 4vw;
+        color: rgba(0, 0, 0, 0.707)
+    }
+    #btnp1 {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .b1 {
+        background-color: white;
+    }
+    .b1 a {
+        color: black;
+        text-decoration: none;
+    }
+    .b1:hover {
+        background-color: #343335;
+        transition: 0.2s linear;
+    }
+    .b1:hover a {
+        color: white;
+    }
+    .b2 {
+        background-color: #343335;
+    }
+    .b2 a {
+        color: white;
+        text-decoration: none;
+    }
+    .b2:hover {
+        background-color: black;
+        transition: 0.2s linear;
+    }
+    button a {
+        font-size: 2vw;
+    }
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* #343335 */
+    #leftp1 button {
+        margin-top: 20px;
+        margin-right: 10px;
+        width: 15vw;
+        height: 7vw;
+        border-radius: 30px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    #rightp1 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px;
+    }
+    #img {
+        width: 40vw;
+        height: 40vw;
+        border-radius: 50%;
+        overflow: hidden;
+    }
 }
