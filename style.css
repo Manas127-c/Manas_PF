@@ -769,40 +769,44 @@ form textarea {
     /* responsive page1 */
     #page1 {
         width: 100vw;
-        height: 100vw;
+        height: 100vh;
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column-reverse;
     }
     #leftp1 {
-        width: 50%;
-        height: 100%;
+        width: 100%;
+        height: 50%;
         /* background-color: green; */
         padding: 0px 0px;
+        justify-content: start;
     }
     #leftp1 h5 {
-        font-size: 3vw;
+        font-size: 7vw;
         color: rgba(0, 0, 0, 0.707)
     }
     #leftp1 h1 {
-        font-size: 5vw;
-        margin-top: 20px;
+        font-size: 10vw;
+        margin-top: 60px;
         font-weight: bold;
     }
     #frame {
-        height: 5vw;
+        margin-top: 25px;
+        height: 8vw;
     }
     #leftp1 span {
-        height: 5vw;
-        font-size: 4vw;
+        height: 8vw;
+        font-size: 7vw;
         color: rgba(0, 0, 0, 0.707)
     }
     #btnp1 {
-        margin-top: 10px;
+        margin-top: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
     .b1 {
         background-color: white;
@@ -830,7 +834,7 @@ form textarea {
         transition: 0.2s linear;
     }
     button a {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     button {
         display: flex;
@@ -841,23 +845,23 @@ form textarea {
     #leftp1 button {
         margin-top: 20px;
         margin-right: 10px;
-        width: 15vw;
+        width: 30vw;
         height: 7vw;
         border-radius: 30px;
         border: 1px solid black;
         cursor: pointer;
     }
     #rightp1 {
-        width: 50%;
-        height: 100%;
+        width: 100%;
+        height: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0px 0px;
+        padding: 0%;
     }
     #img {
-        width: 40vw;
-        height: 40vw;
+        width: 80vw;
+        height: 80vw;
         border-radius: 50%;
         overflow: hidden;
     }
